@@ -1,7 +1,7 @@
 pip install -q xformers==0.0.20 triton==2.0.0 -U
 if [ $3 == True ]; then
   pip install -U openmim
-  mim install mmcv>=2.0.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.0.0/index.html
+  mim install mmcv>=2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html
   mim install mmdet>=3.0.0
 fi
 
